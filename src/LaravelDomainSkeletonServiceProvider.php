@@ -10,9 +10,11 @@ class LaravelDomainSkeletonServiceProvider extends ServiceProvider
     public function boot()
     {
         if ($this->app->runningInConsole()) {
-            $this->commands([
-                LaravelDomainSkeletonCommand::class
-            ]);
+            $this->commands(
+                [
+                    LaravelDomainSkeletonCommand::class
+                ]
+            );
         }
     }
 
@@ -21,9 +23,12 @@ class LaravelDomainSkeletonServiceProvider extends ServiceProvider
         if ($this->app->runningInConsole()) {
             $this->mergeConfigFrom(__DIR__ . '/../config/domain-skeleton.php', 'domain-skeleton');
 
-            $this->publishes([
-                __DIR__ . '/../config/domain-skeleton.php' => config_path('domain-skeleton.php'),
-            ], 'domain-skeleton');
+            $this->publishes(
+                [
+                    __DIR__ . '/../config/domain-skeleton.php' => config_path('domain-skeleton.php'),
+                ],
+                'domain-skeleton'
+            );
         }
     }
 }
