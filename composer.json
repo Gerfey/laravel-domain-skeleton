@@ -35,7 +35,7 @@
     },
     "laravel": {
       "providers": [
-        "Domain\\LaravelDomainSkeleton\\LaravelDomainSkeletonServiceProvider"
+        "Gerfey\\LaravelDomainSkeleton\\LaravelDomainSkeletonServiceProvider"
       ]
     }
   },
