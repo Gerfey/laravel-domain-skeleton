@@ -1,6 +1,6 @@
 <?php
 
-namespace App\__DOMAIN_SKELETON_DIRECTORY__\__DomainName__;
+namespace App\__DOMAIN_SKELETON_DIRECTORY__\__DomainName__\Database\Repository;
 
 use App\__DOMAIN_SKELETON_DIRECTORY__\__DomainName__\Database\Models\__DomainName__;
 use Gerfey\Repository\Repository;

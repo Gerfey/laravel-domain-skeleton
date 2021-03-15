@@ -19,7 +19,7 @@ class StorageDomainSkeleton
      */
     public function createStructure(string $domainName)
     {
-        $pathDomainName = config('default_directory.domain') . '/' . $domainName;
+        $pathDomainName = config('domain-skeleton.default_directory') . '/' . $domainName;
         $pathDirectoryDomain = app_path($pathDomainName);
 
         if (!file_exists($pathDirectoryDomain)) {

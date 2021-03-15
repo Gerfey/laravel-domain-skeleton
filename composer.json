@@ -1,6 +1,6 @@
 {
     "name": "gerfey/laravel-domain-skeleton",
-    "description": "Make a Domain skeleton",
+    "description": "Creating a skeleton domain framework.",
     "license": "MIT",
     "homepage": "https://vk.com/gerfey",
     "keywords": [
