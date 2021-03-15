@@ -2,6 +2,7 @@
 
 namespace Gerfey\LaravelDomainSkeleton;
 
+use Gerfey\LaravelDomainSkeleton\Console\LaravelDomainSkeletonCommand;
 use Illuminate\Support\ServiceProvider;
 
 class LaravelDomainSkeletonServiceProvider extends ServiceProvider

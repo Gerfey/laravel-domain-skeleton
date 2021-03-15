@@ -1,6 +1,6 @@
 <?php
 
-namespace Gerfey\LaravelDomainSkeleton;
+namespace Gerfey\LaravelDomainSkeleton\Console;
 
 use Illuminate\Console\Command;
 
