@@ -1,0 +1,44 @@
+{
+  "name": "gerfey/laravel-domain-skeleton",
+  "description": "Make a Domain skeleton",
+  "license": "MIT",
+  "homepage": "https://vk.com/gerfey",
+  "keywords": [
+    "gerfey",
+    "laravel",
+    "domain",
+    "skeleton",
+    "laravel-domain-skeleton"
+  ],
+  "authors": [
+    {
+      "name": "Alexander Levchenkov",
+      "email": "sanjia@live.ru"
+    }
+  ],
+  "require": {
+    "php": "^7.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Gerfey\\LaravelDomainSkeleton\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Gerfey\\LaravelDomainSkeleton\\Tests\\": "tests/"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "0.0.1-dev"
+    },
+    "laravel": {
+      "providers": [
+        "Domain\\LaravelDomainSkeleton\\LaravelDomainSkeletonServiceProvider"
+      ]
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
